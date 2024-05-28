@@ -1,0 +1,36 @@
+import sqlite3
+
+from components.read_csv_file import read_csv_file
+
+def populate_table_HISTORICO_SALARIOS():
+    
+    file_name = "C:/Users/gribe/OneDrive/Documentos/Codes/INFNET/2024.1/Projeto de Bloco - Fundamentos de Dados/TPs/TP4/resources/historico_salarios.csv"
+    file_information = read_csv_file(file_name)
+    
+    with sqlite3.connect("database.db", timeout=60) as connection:
+        cursor = connection.cursor()
+        
+        cursor.executemany("""
+INSERT INTO HISTORICO_SALARIOS (FUNCIONARIO_ID,
+                            SALARIO,
+                            MES,
+                            ANO) VALUES
+                            
+                            (:FUNCIONARIO_ID,
+                            :SALARIO,
+                            :MES,
+                            :ANO)""",
+[
+    {"FUNCIONARIO_ID": historico_salario["FUNCIONARIO_ID"],
+    "SALARIO": historico_salario["SALARIO"],
+    "MES": historico_salario["MES"],
+    "ANO": historico_salario["ANO"]}
+    for historico_salario in file_information
+])
+    
+        connection.commit()
+        cursor.close()
+        
+    print('')
+    print('Values inserted successfully!')
+    print('')

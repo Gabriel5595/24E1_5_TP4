@@ -1,0 +1,31 @@
+DEPENDENTE_1,SEXO_DEPENDENTE_1,IDADE_DEPENDENTE_1,PARENTESCO_DEPENDENTE_1,DEPENDENTE_2,SEXO_DEPENDENTE_2,IDADE_DEPENDENTE_2,PARENTESCO_DEPENDENTE_2
+Maria da Silva,feminino,55,mãe,João da Silva,masculino,60,pai
+Ana Pereira,feminino,25,filha,Luiz Pereira,masculino,60,pai
+Ana Santos,feminino,20,filha,Marcos Silva,masculino,50,pai
+Carlos Oliveira,masculino,30,filho,Isabela Almeida,feminino,28,esposa
+Fernanda Pereira,feminino,28,esposa,Lucas Santos,masculino,10,filho
+Gustavo Lima,masculino,30,marido,Juliana Oliveira,feminino,25,esposa
+Isabela Silva,feminino,18,filha,Rodrigo Lima,masculino,35,marido
+Juliana Almeida,feminino,25,esposa,André Oliveira,masculino,32,marido
+Lucas Pereira,masculino,8,filho,Amanda Lima,feminino,26,esposa
+Mariana Santos,feminino,15,filha,Rafael Oliveira,masculino,33,marido
+Pedro Almeida,masculino,12,filho,Larissa Silva,feminino,24,esposa
+Beatriz Oliveira,feminino,10,filha,Felipe Lima,masculino,28,marido
+Camila Lima,feminino,30,esposa,Thiago Almeida,masculino,32,marido
+Diego Silva,masculino,7,filho,Sabrina Oliveira,feminino,29,esposa
+Eduarda Almeida,feminino,8,filha,Vitor Silva,masculino,30,marido
+Felipe Pereira,masculino,32,marido,Carolina Santos,feminino,28,esposa
+Gabriela Almeida,feminino,6,filha,Leonardo Lima,masculino,30,marido
+Hugo Santos,masculino,35,marido,Luana Oliveira,feminino,33,esposa
+Joana Lima,feminino,28,esposa,Bruno Almeida,masculino,30,marido
+Karen Oliveira,feminino,9,filha,Renan Silva,masculino,31,marido
+Leandro Silva,masculino,5,filho,Nathalia Almeida,feminino,27,esposa
+Marta Almeida,feminino,27,esposa,Victor Lima,masculino,35,marido
+Natália Lima,feminino,11,filha,Daniel Oliveira,masculino,34,marido
+Paulo Oliveira,masculino,33,marido,Aline Silva,feminino,29,esposa
+Renata Silva,feminino,8,filha,Gabriel Almeida,masculino,31,marido
+Sandra Almeida,feminino,31,esposa,Ricardo Santos,masculino,33,marido
+Thais Santos,feminino,7,filha,Guilherme Lima,masculino,32,marido
+Vanessa Lima,feminino,29,esposa,Marcelo Almeida,masculino,33,marido
+Wagner Oliveira,masculino,34,marido,Patrícia Silva,feminino,30,esposa
+Yasmin Almeida,feminino,5,filha,Maria Fernanda de Souza,feminino,8,filha

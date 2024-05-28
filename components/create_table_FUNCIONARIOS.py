@@ -1,0 +1,26 @@
+import sqlite3
+
+def create_table_FUNCIONARIOS():
+    connection = sqlite3.connect("database.db")
+    cursor = connection.cursor()
+    
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS FUNCIONARIOS (
+        FUNCIONARIO_ID INTEGER PRIMARY KEY AUTOINCREMENT,
+        FUNCIONARIO_NOME VARCHAR(50) NOT NULL,
+        PROJETO_ID INTEGER,
+        CARGO_ID INTEGER,
+        DEPARTAMENTO_ID INTEGER,
+        DEPENDENTES_ID INTEGER,
+        SALARIO_REAL DECIMAL(10, 2) NOT NULL,
+        TIPO_CONTRATO VARCHAR(3) NOT NULL,
+        FOREIGN KEY (PROJETO_ID) REFERENCES PROJETOS (PROJETO_ID),
+        FOREIGN KEY (CARGO_ID) REFERENCES CARGOS (CARGO_ID),
+        FOREIGN KEY (DEPARTAMENTO_ID) REFERENCES DEPARTAMENTOS (DEPARTAMENTO_ID),
+        FOREIGN KEY (DEPENDENTES_ID) REFERENCES DEPENDENTES (DEPENDENTES_ID)
+        )
+""")
+    
+    print('')
+    print("Table created sucessfully!")
+    print('')

@@ -1,0 +1,9 @@
+FUNC_RESPONSAVEL,PROJETO_NOME,PROJETO_DESCRICAO,DATA_INICIO,DATA_FINAL,CUSTO_PROJETO,STATUS
+1,Projeto Alpha,Desenvolvimento de software para gestão financeira,2023-01-10,2023-06-30,150000,Concluído
+2,Projeto Beta,Implementação de sistema de controle de estoque,2023-03-15,NULL,120000,Em Execução
+3,Projeto Gama,Criação de aplicativo móvel para serviços bancários,2023-05-01,NULL,200000,Em Planejamento
+4,Projeto Delta,Atualização da infraestrutura de rede corporativa,2023-02-20,2023-07-15,80000,Concluído
+7,Projeto Épsilon,Desenvolvimento de plataforma de e-commerce,2023-06-01,NULL,250000,Em Execução
+28,Projeto Zeta,Reformulação do website institucional,2023-07-10,2023-10-30,60000,Concluído
+29,Projeto Eta,Automatização de processos internos,2023-04-25,2023-09-20,95000,Cancelado
+22,Projeto Teta,Implantação de sistema de CRM,2023-08-05,NULL,180000,Em Execução
